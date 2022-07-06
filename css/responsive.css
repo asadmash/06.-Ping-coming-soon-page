@@ -1,0 +1,32 @@
+@media (min-width: 512px) {
+    .email > input, button {
+        font-size: 1.25rem;
+    }
+   
+
+}
+
+@media (min-width: 820px) {
+    .title  h1,
+    .title h2{
+        font-size: 2.5rem;
+    }
+    .title p {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 920px) {
+    .description .email {
+        flex-direction: row;
+    }
+    .email input {
+        width: 70%;
+    }
+    .email button {
+        width: 30%;
+    }
+    .container {
+        margin: 70px auto 20px;
+    }
+}
