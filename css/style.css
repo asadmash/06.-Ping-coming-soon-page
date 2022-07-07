@@ -47,13 +47,38 @@ body {
 .description .email {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 13px;
+
 }
 
+.email .input-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+}
+
+.email .input-field small {
+    position: absolute;
+    top: 35px;
+    left: 2%;
+    color: red;
+    visibility: hidden;
+}
+
+.error > input#email  {
+    border: 1px solid red;
+}
+
+.success > input#email {
+    border: 1px solid var(--PaleBlue);
+}
 input#email {
     padding: 10px;
     border: 1px solid var(--PaleBlue);
     border-radius: 40px;
+    width: 100%;
 }
 .email button{
     padding: 10px;

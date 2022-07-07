@@ -26,6 +26,9 @@
     .email button {
         width: 30%;
     }
+    .email .input-field {
+        width: 70%;
+    }
     .container {
         margin: 70px auto 20px;
     }
