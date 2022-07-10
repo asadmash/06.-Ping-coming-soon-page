@@ -84,7 +84,7 @@ input#email {
     padding: 10px;
     border: none;
     border-radius: 40px;
-    background-color: var(--Blue);
+    background-color: var(red);
     color: #fff;
 }
 
