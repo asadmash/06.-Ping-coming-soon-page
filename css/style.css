@@ -30,7 +30,7 @@ body {
 
 .description h2 {
     font-size: 50px;
-    color: var(--Gray);
+    color: red;
     font-weight: 300;
     padding: 30px 0 20px;
 }
